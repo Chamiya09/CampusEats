@@ -1,0 +1,33 @@
+
+# Frontend - React / Vite
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Backend - ASP.NET Core
+bin/
+obj/
+.vs/
+TestResults/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Production.json
+
+# IDE Files
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
